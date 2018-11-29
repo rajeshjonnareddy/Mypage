@@ -1,0 +1,10 @@
+.pageone{
+    height:100vh; 
+    margin: 0px;
+}
+.firstpagecard{
+    background-color: yellow;
+    height: 60vh;
+    width: 70vw;
+    position: static;
+}

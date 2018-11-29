@@ -1,0 +1,58 @@
+.companyName{
+    font-size: 150%;
+}
+.navbar{
+  /* position:fixed; */
+  z-index: 1000;
+  height: 7vh;
+  scroll-behavior: smooth;
+
+}
+.mat-toolbar{
+  
+  position: fixed;
+}
+
+div {
+    overflow: inherit;
+}
+
+.pages{
+  height: 93vh;
+  
+  scroll-behavior: smooth;
+  
+}
+.mat-sidenav-container{
+   /* background-color: lightskyblue; */
+   min-height: 93vh !important;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 110%;
+    white-space: normal;
+}
+
+button{
+    font-size: 110%;
+    min-width: min-content;
+}
+
+.example-icon {
+    padding: 0 14px;
+  }
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-sidenav-content{
+      font-size: 200%;
+      text-align: center;    
+  }
+
+/* .Homepage{
+      height: 100vh;
+  } */

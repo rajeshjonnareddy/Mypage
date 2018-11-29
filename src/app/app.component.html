@@ -1,0 +1,83 @@
+<!-- 
+<div class="navbar">
+    <mat-toolbar color="primary">
+       <a mat-button class="companyName" routerLink="/">
+        <span>Site name</span>
+      </a>
+      <span class="example-spacer"></span>
+      <div fxShow="true" fxHide.lt-md="true">
+        <a mat-button pageScroll href="#mainpage">About us</a>
+        <a mat-button pageScroll href="#pageone">Prices</a>
+        <a mat-button pageScroll href="#pagetwo">Start page</a>
+        <a mat-button pageScroll href="#pagethree">Offer</a>
+        <a mat-button pageScroll href="#pagefour">Contact</a>
+      </div>
+      <div fxShow="true" fxHide.gt-sm="true">
+          <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+          </button>
+        </div>
+    </mat-toolbar>
+  </div>
+  <div class="body">
+<div class="pages"> 
+    <mat-sidenav-container fxFlexFill class="example-container" >
+      <mat-sidenav color="primary" #sidenav class="sidebar" fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true" position="end">
+        <div fxLayout="column" fx>
+          <a mat-button href="#mainpage">About us</a>
+          <a mat-button href="#pagetwo">Prices</a>
+          <a mat-button href="#pagethree">Start page</a>
+          <a mat-button href="#pagefour">Offer</a>
+          <a mat-button href="#pageone">Contact</a>
+        </div>
+      </mat-sidenav>
+      <mat-sidenav-content fxFlexFill >
+         
+           <app-main id="mainpage"></app-main>
+           <app-pageone id="pageone"></app-pageone>
+           <app-pagetwo id="pagetwo"></app-pagetwo>
+           <app-pagethree id="pagethree"></app-pagethree>
+           <app-pagefour id="pagefour"></app-pagefour>
+           <a pageScroll href="#awesomePart">Take me to the awesomeness</a>
+        <p style="height:100vh">erjerjkkekjwjekjr</p>
+        <h2 id="awesomePart">This is where the awesome happens</h2>
+        </mat-sidenav-content>
+        
+     
+    </mat-sidenav-container>
+
+    
+  </div>
+</div> -->
+<!-- <router-outlet></router-outlet>  -->
+
+
+
+
+
+<mat-toolbar color="primary">
+    <a mat-button class="companyName" routerLink="/">
+     <span>Site name</span>
+   </a>
+   <span class="example-spacer"></span>
+   <div fxShow="true" fxHide.lt-md="true">
+     <a mat-button pageScroll href="#mainpage">About us</a>
+     <a mat-button pageScroll href="#pageone">Prices</a>
+     <a mat-button pageScroll href="#pagetwo">Start page</a>
+     <a mat-button pageScroll href="#pagethree">Offer</a>
+     <a mat-button pageScroll href="#pagefour">Contact</a>
+   </div>
+   <div fxShow="true" fxHide.gt-sm="true">
+       <button mat-icon-button (click)="sidenav.toggle()">
+         <mat-icon>menu</mat-icon>
+       </button>
+     </div>
+ </mat-toolbar>
+<app-main id="mainpage"></app-main>
+           <app-pageone id="pageone"></app-pageone>
+           <app-pagetwo id="pagetwo"></app-pagetwo>
+           <app-pagethree id="pagethree"></app-pagethree>
+           <app-pagefour id="pagefour"></app-pagefour>
+           <a pageScroll href="#awesomePart">Take me to the awesomeness</a>
+        <p style="height:100vh">erjerjkkekjwjekjr</p>
+        <h2 id="awesomePart">This is where the awesome happens</h2>

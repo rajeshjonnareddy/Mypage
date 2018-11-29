@@ -1,0 +1,10 @@
+.about{
+    height: 100vh;
+    margin: 0px;
+    background-color: red;
+}
+.centercontent{
+    background-color: yellow;
+    height: 40vh;
+    width: 60vw;
+}
