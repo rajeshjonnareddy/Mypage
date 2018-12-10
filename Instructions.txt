@@ -12,3 +12,10 @@ Steps to make the website work in LINUX OS
             localhost:4200
 
 Steps to make the website work in Windows OS
+    Step 1: install Node and angular in Windows
+    Step 2: set the path for nodejs using Environment Variables.
+    Step 3: install angular cli in nodejs
+            Step i: npm install -g @angular/cli
+    Step 4: run the program in your project folder
+            Step i: npm Start
+    Step 5: Open webbrowser and go to http://127.0.0.1:4200
