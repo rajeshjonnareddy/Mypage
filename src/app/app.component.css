@@ -52,7 +52,6 @@ button{
       font-size: 200%;
       text-align: center;
   }
-
-/* .Homepage{
-      height: 100vh;
-  } */
+.body{
+  height: 100vh;
+}
