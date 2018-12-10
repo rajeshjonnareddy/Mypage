@@ -1,4 +1,11 @@
 .pagetwo{
-    height:100vh;   
+    height:100vh;
     margin: 0px;
+    background-color: #778899;
+    color: white;
+}
+.centercontent{
+    height: 60vh;
+    width: 80vh;
+    background-color:royalblue;
 }

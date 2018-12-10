@@ -3,10 +3,10 @@ Steps to make the website work
     Step 2: Install Nodejs and npm in to your local machine
     Step 3: Now got to cloned folder and install npm and angular
              Step i:     sudo apt-get install npm
-             Step ii:    sudo npnpm install -g @angular/cli
+             Step ii:    sudo npm install -g @angular/cli
              Step iii:   cd /Downloads/cloned_folder
              Step iv:    npm install
     Step 5: compile and run
                ng serve
-    Step 6: open browser and enter 
+    Step 6: open browser and enter
             localhost:4200

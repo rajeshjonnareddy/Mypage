@@ -1,6 +1,8 @@
 .pageone{
-    height:100vh; 
+    height:100vh;
     margin: 0px;
+    background-color:lightgray;
+    color:black;
 }
 .firstpagecard{
     background-color: yellow;

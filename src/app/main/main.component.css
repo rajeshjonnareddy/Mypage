@@ -1,10 +1,12 @@
 .about{
     height: 100vh;
     margin: 0px;
-    background-color: red;
+    background-color: #778899;
+    color: white;
 }
 .centercontent{
-    background-color: yellow;
+    background-color : #778899;
     height: 40vh;
     width: 60vw;
+    color: white;
 }

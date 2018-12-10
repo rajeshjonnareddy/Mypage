@@ -9,7 +9,7 @@
 
 }
 .mat-toolbar{
-  
+
   position: fixed;
 }
 
@@ -19,9 +19,9 @@ div {
 
 .pages{
   height: 93vh;
-  
+
   scroll-behavior: smooth;
-  
+
 }
 .mat-sidenav-container{
    /* background-color: lightskyblue; */
@@ -50,7 +50,7 @@ button{
 
   .mat-sidenav-content{
       font-size: 200%;
-      text-align: center;    
+      text-align: center;
   }
 
 /* .Homepage{

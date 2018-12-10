@@ -1,5 +1,11 @@
 .pagefour{
-    height:100vh; 
+    height:100vh;
     margin: 0px;
-    background-color: blueviolet
+    background-color: #778899;
+    color: white;
+
+}
+.footclass{
+    height: 100px;
+    background-color: black;
 }
