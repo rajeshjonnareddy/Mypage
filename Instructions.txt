@@ -1,4 +1,4 @@
-Steps to make the website work
+Steps to make the website work in LINUX OS
     Step 1: Clone or download the folder to your local directory
     Step 2: Install Nodejs and npm in to your local machine
     Step 3: Now got to cloned folder and install npm and angular
@@ -10,3 +10,5 @@ Steps to make the website work
                ng serve
     Step 6: open browser and enter
             localhost:4200
+
+Steps to make the website work in Windows OS
