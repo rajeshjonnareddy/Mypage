@@ -1,7 +1,8 @@
 .about{
     height: 100vh;
     margin: 0px;
-    background-color: #778899;
+    /* background-color: #778899; */
+    background-image: url(./img/"ben-rosett-10614-unsplash.jpg");
     color: white;
 }
 .centercontent{
