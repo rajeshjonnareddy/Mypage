@@ -1,12 +1,13 @@
+.resume{
+  height: 100vh;
+}
 .companyName{
     font-size: 150%;
 }
 .navbar{
-  /* position:fixed; */
   z-index: 1000;
-  height: 7vh;
+  height: 6vh;
   scroll-behavior: smooth;
-
 }
 .mat-toolbar{
 
@@ -53,5 +54,5 @@ button{
       text-align: center;
   }
 .body{
-  height: 100vh;
+  height: 93vh;
 }

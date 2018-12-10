@@ -1,28 +1,29 @@
-
-<div class="nav">
-  <mat-toolbar color="primary">
-      <a mat-button class="companyName" routerLink="/">
-       <span>Rajesh J</span>
-     </a>
-     <span class="example-spacer"></span>
-     <div fxShow="true" fxHide.lt-md="true">
-       <a mat-button pageScroll href="#mainpage">Home</a>
-       <a mat-button pageScroll href="#pageone">About</a>
-       <a mat-button pageScroll href="#pagetwo">Skills</a>
-       <a mat-button pageScroll href="#pagethree">Experience</a>
-       <a mat-button pageScroll href="#pagefour">Contact</a>
-     </div>
-     <div fxShow="true" fxHide.gt-sm="true">
-         <button mat-icon-button (click)="sidenav.toggle()">
-           <mat-icon>Menu</mat-icon>
-         </button>
+<div class="resume">
+  <div class="navbar">
+    <mat-toolbar color="primary">
+        <a mat-button class="companyName" routerLink="/">
+         <span>Rajesh J</span>
+       </a>
+       <span class="example-spacer"></span>
+       <div fxShow="true" fxHide.lt-md="true">
+         <a mat-button pageScroll href="#mainpage">Home</a>
+         <a mat-button pageScroll href="#pageone">About</a>
+         <a mat-button pageScroll href="#pagetwo">Skills</a>
+         <a mat-button pageScroll href="#pagethree">Experience</a>
+         <a mat-button pageScroll href="#pagefour">Contact</a>
        </div>
-   </mat-toolbar>
-</div>
-<div class="body">
-  <app-main id="mainpage"></app-main>
-  <app-pageone id="pageone"></app-pageone>
-  <app-pagetwo id="pagetwo"></app-pagetwo>
-  <app-pagethree id="pagethree"></app-pagethree>
-  <app-pagefour id="pagefour"></app-pagefour>
+       <div fxShow="true" fxHide.gt-sm="true">
+           <button mat-icon-button (click)="sidenav.toggle()">
+             <mat-icon>Menu</mat-icon>
+           </button>
+         </div>
+     </mat-toolbar>
+  </div>
+  <div class="body">
+    <app-main id="mainpage"></app-main>
+    <app-pageone id="pageone"></app-pageone>
+    <app-pagetwo id="pagetwo"></app-pagetwo>
+    <app-pagethree id="pagethree"></app-pagethree>
+    <app-pagefour id="pagefour"></app-pagefour>
+  </div>
 </div>
